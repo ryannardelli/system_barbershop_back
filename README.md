@@ -1,6 +1,6 @@
 # Sistema para barbearia
 
-Esse Repositório contém o back-end da aplicação que está em conjunto com firebase utilizado para a autenticação
+Este repositório contém o back-end da aplicação, desenvolvido em conjunto com o Firebase, utilizado para autenticação de usuários.
 
 ---
 
