@@ -6,7 +6,7 @@ import { User } from '@prisma/client';
 export class UsersRepository {
   constructor(private readonly prisma: PrismaService) {}
 
-  async findAll(): Promise<User> {
+  async findAll(): Promise<User[]> {
     return await this.prisma.user.findMany();
   }
 
