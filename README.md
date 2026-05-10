@@ -40,11 +40,14 @@ Crie um arquivo .env na raiz do projeto:
 DB_USER=SEU_USUARIO
 DB_PASSWORD=SUA_SENHA
 DB_NAME=SEU_NOME_DO_BANCO
+
+FIREBASE_PROJECT_ID=PROJECT_ID
+FIREBASE_CLIENT_EMAIL=CLIENT_EMAIL
+FIREBASE_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\nSUA_CHAVE_AQUI\n-----END PRIVATE KEY-----\n"
 ```
 ### 3. Subir os containers
 ```bash
 docker compose up --build
 ```
-### Isso irá subir:
-- A aplicação em http://localhost:3000
-- Banco PostgreSQL em localhost:5432
+### Se tudo der certo, irá subir com:
+- Aplicação funcionando e disponível em: http://localhost:3000/api
