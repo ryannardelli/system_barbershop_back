@@ -49,6 +49,5 @@ FIREBASE_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\nSUA_CHAVE_AQUI\n-----END PRIV
 ```bash
 docker compose up --build
 ```
-### Isso irá subir:
-- A aplicação em http://localhost:3000
-- Banco PostgreSQL em localhost:5432
+### Se tudo der certo, irá subir com:
+- Aplicação funcionando e disponível em: http://localhost:3000/api
