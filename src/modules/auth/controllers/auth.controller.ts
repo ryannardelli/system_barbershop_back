@@ -10,7 +10,7 @@ export class AuthController {
 
   @Post('sync')
   @UseGuards(FirebaseAuthGuard)
-  async sync(@Req() req) {
+  sync(@Req() req) {
     return this.authService.syncUser(req.user);
   }
 
