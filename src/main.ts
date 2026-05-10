@@ -7,9 +7,7 @@ async function bootstrap() {
 
   const config = new DocumentBuilder()
     .setTitle('Sistema de Barbearia')
-    .setDescription(
-      'Documentação completa do sistema de barbearia, incluindo autenticação, agendamentos, barbeiros, serviços e clientes.',
-    )
+    .setDescription('Documentação completa do sistema de barbearia.')
     .setVersion('1.0')
     .addBearerAuth(
       {
