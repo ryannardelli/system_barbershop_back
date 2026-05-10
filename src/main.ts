@@ -31,10 +31,10 @@ async function bootstrap() {
     customSiteTitle: 'Documentação Sistema de Barbearia',
   });
 
-  await app.listen(3000);
+  await app.listen(3000, '0.0.0.0');
 
   console.log(
-    `Aplicação funcionando e disponível em: ${await app.getUrl()}/api`,
+    `Aplicação funcionando e disponível em: http://localhost:3000/api`,
   );
 }
 
